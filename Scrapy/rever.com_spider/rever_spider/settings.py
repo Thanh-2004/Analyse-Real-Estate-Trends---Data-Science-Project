@@ -36,6 +36,7 @@ ROBOTSTXT_OBEY = False
 #     'scrapy_fake_useragent.middleware.RetryUserAgentMiddleware': 401,
 # }
 
+
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
     'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
