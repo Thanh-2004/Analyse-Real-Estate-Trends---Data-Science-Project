@@ -55,6 +55,6 @@ class ApartmentItem(Item):
     # investor = Field(input_processor=MapCompose(clean_input), output_processor=TakeFirst())
     # parking_lot = Field(input_processor=MapCompose(clean_input), output_processor=TakeFirst())
     law_doc = Field(input_processor=MapCompose(clean_input), output_processor=TakeFirst())
-    # project = Field(input_processor=MapCompose(clean_input), output_processor=TakeFirst())
-    # entrance = Field(input_processor=MapCompose(clean_input), output_processor=TakeFirst())
+    project = Field(input_processor=MapCompose(clean_input), output_processor=TakeFirst())
+    entrance = Field(input_processor=MapCompose(clean_input), output_processor=TakeFirst())
     post_date = Field(input_processor=MapCompose(clean_input), output_processor=TakeFirst())
